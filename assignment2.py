@@ -2,8 +2,8 @@ import streamlit as st
 from google import genai
 import os
 from dotenv import load_dotenv
-st.title("The multiverse of chatbots 🤖")
-personality=st.selectbox("Select a personality to chat with:",
+st.title("The Multiverse of Chatbots 🤖")
+personality=st.selectbox("Select a personality to chat with 👱:",
                          ["A Small Kid","A Teacher","A Doctor","A Therapist","A Comedian","An Actor","A Scientist","A Depressed Person","A Happy Person","A Sad Person","A Motivational Speaker","A Politician","A Singer","A Dancer","A Chef","A Gamer","A Programmer","A Writer","A Poet"])
 load_dotenv()
 client=genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
