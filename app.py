@@ -284,5 +284,4 @@ st.markdown("---")
 
 st.caption(
     "📖 AI Multi-Modal Visual Novel | "
-    "Powered by Gemini + Pollinations + gTTS"
 )
